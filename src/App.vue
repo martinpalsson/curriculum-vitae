@@ -140,7 +140,7 @@
         <TimelineItem 
           period="2014 - 2017" 
           company="KTH - Royal Institute of Technology" 
-          role="H.ing Maskinteknik - Robotik och mekatronik"
+          role="BSc. Mechanical enginering - Robotics and Mechatronics"
           role-description="No diploma"
         />
         <TimelineItem 
