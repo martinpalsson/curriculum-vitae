@@ -20,6 +20,8 @@
                     <li>Javascript</li>
                     <li>Rust</li>
                     <li>Linux</li>
+                    <li>Docker</li>
+                    <li>Traefik</li>
                 </ul>
             </div>
             <div class="skill_list">
