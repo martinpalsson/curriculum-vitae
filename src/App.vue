@@ -49,7 +49,7 @@
         <TimelineItem 
           period="2018 - Now" 
           company="Scania CV AB" 
-          role="Software development engineer"
+          role="Development engineer"
           role-description="Was reqruited to the role of Function Owner, 
               with responsibility of the external interfaces (network based + I/O based).
               My responsibilities also included a PLC-like programmable unit allowing third party to define limited functionality in the external interface,
