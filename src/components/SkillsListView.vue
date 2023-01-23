@@ -12,17 +12,17 @@
     <div class="resume_item resume_skills">
 
         <div class="resume_title">Skills</div>
-        <div class="resume_title">General SW dev</div>
+        <div class="resume_title">General</div>
         <div class="resume_info skill_container">
             <div class="skill_list">
                 <!-- Left side -->
                 <ul>
                     <li>Python</li>
-                    <li>Javascript</li>
                     <li>Rust</li>
-                    <li>Linux</li>
                     <li>Docker</li>
-                    <li>Traefik</li>
+                    <li>Linux</li>
+                    <li>GIT</li>
+                    <li>Perforce</li>
                 </ul>
             </div>
             <div class="skill_list">
@@ -30,22 +30,25 @@
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>Javascript</li>
                     <li>Vue 3</li>
+                    <li>Django</li>
+                    <li>Django REST Framework</li>
                 </ul>
             </div>
         </div>
         <br />
-        <div class="resume_title">Skills Embedded Systems</div>
+        <div class="resume_title">Embedded Systems</div>
         <div class="resume_info skill_container">
             <div class="skill_list">
                 <!-- Left side -->
                 <ul>
                     <li>C</li>
                     <li>C++</li>
+                    <li>RTOS</li>
                     <li>STM32</li>
                     <li>I2C</li>
                     <li>SPI</li>
-                    <li>Arduino</li>
                     
                 </ul>
             </div>
@@ -53,8 +56,8 @@
             <!-- Right side -->
                 <ul>
                     
-                    <li>CANbus</li>
-                    <li>RTOS</li>
+                    <li>CAN</li>
+                    
                     <li>Canalyzer</li>
                     <li>CAPL</li>
                     <li>FMEA</li>

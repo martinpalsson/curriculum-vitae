@@ -34,12 +34,12 @@ export default{
         
         <div class="content">
             <div>
-                <div>
-                    <div style="display: inline-block;">
+                <div style="display: flex">
+                    <div style="display: inline-block; width: 80%; float: left; position: relative;">
                         <strong>{{ company }}</strong> <br> 
                         <strong>{{ role }}</strong> <br>
                     </div>
-                    <div style="display: inline-block; margin: 10px;">
+                    <div style="display: inline-block; width: 20%; float: left; position: relative;">
                         <strong>{{ period }}</strong>
                     </div>
                 </div>
