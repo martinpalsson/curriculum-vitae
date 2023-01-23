@@ -12,6 +12,7 @@
     <div class="resume_item resume_skills">
 
         <div class="resume_title">Skills</div>
+        <div class="resume_title">General SW dev</div>
         <div class="resume_info skill_container">
             <div class="skill_list">
                 <!-- Left side -->
@@ -61,18 +62,23 @@
             </div>
         </div>
         <br />
-        <div class="resume_title">Licenses</div>
-        <div class="resume_info skill_container">
+        <div class="resume_title">Miscellaneous</div>
+        <div 
+            class="resume_info skill_container"
+            style="overflow-wrap: break-word;"
+            >
             <div class="skill_list">
                 <!-- Left side -->
                 <ul>
-                    <li>Heavy Truck</li>
+                    <li>Drivers license commercial truck</li>
+                    <li>Drivers license car</li>
+                    <li>Swedish Champion Robotic mini-sumo 2017</li>
                 </ul>
             </div>
             <div class="skill_list">
             <!-- Right side -->
                 <ul>
-                    <li>Car</li>
+                    
                 </ul>
             </div>
         </div>
