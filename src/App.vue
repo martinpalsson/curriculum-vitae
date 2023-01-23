@@ -50,8 +50,8 @@
           period="2018 - Now" 
           company="Scania CV AB" 
           role="Development engineer"
-          role-description="Was reqruited to the role of Function Owner, 
-              with responsibility of the external interfaces (network based + I/O based).
+          role-description="Function Owner 
+              with responsibility of the external interfaces (CAN + I/O).
               My responsibilities also included a PLC-like programmable unit allowing third party to define limited functionality in the external interface,
               such as activating Power Take Off, Engine Control or interacting with the driver via Switches or Telltales.
               Took over ownership of more functions as time passed. 
