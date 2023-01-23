@@ -24,18 +24,12 @@
 				<div class="role">Software engineer</div>
 			</div>
       <!-- Profile introduction -->
-			<div class="resume_item resume_profile">
+			<!-- <div class="resume_item resume_profile">
 				<div class="resume_title">Profile</div>
 				<div class="resume_info">
-          Engineer with a strong sense of ownership and will to deliver.
-          <br>
-          <br>
-          Born 1989. Grew up on a farm. I'm used to heavy duty work, machinery and long days.
-          <br>
-          <br>
-          I love to automate chores, decrease "friction" in reoccuring tasks, and leave a trail of useful documentation.
+          Hello
         </div>
-			</div>
+			</div> -->
 
 			<!-- Contact details -->
       <ContactDetails telephone-number="+46 706 26 49 90" email-address="martin.palsson@outlook.com"/>
@@ -51,38 +45,41 @@
 		<div class="resume_item resume_education">
 			<div class="resume_title">Career summary</div>
 			<div class="resume_info">
-				<TimelineItem 
-          period="2020 - 2022" 
-          company="Scania CV AB" 
-          role="System Owner"
-          role-description="System- and product ownership bodywork interface"
-          :tasks="[
-            'Lead team activities Backlog refinement, sprint planning', 
-            'Release coordination and planning',
-            'Conducted TARA (Threat Analysis and Risk Assessment)',
-            'Continious work on FMEA (Failure Mode and Risk Assessment)',
-            'Validation of SW in vehicle and on bench',
-            ]"
-        />
+
         <TimelineItem 
-          period="2018 - 2020" 
+          period="2018 - Now" 
           company="Scania CV AB" 
-          role="Function owner"
-          role-description="As a function owner, I managed and lead the development of a number of features related to 
-							the bodywork interface, that provides the ability for third part to adapt the bodywork interface
-							to the purpose of the vehicles. It mainly consists of a PLC-like ECU (for discrete interfaces)
-							and a CAN-based API."
+          role="Software development engineer"
+          role-description="Was reqruited to the role of Function Owner, 
+              with responsibility of the external interfaces (network based + I/O based).
+              My responsibilities also included a PLC-like programmable unit allowing third party to define limited functionality in the external interface,
+              such as activating Power Take Off, Engine Control or interacting with the driver via Switches or Telltales.
+              Took over ownership of more functions as time passed. 
+              Promoted to System Owner in 2020, which can be compared to product owner mixed with limited release train engineer duties. I did keep the Function owner duties.
+               "
+          :projects="[
+            'Telematics solution and HMI functions for bodyworks', 
+            'Scania Zone, geofencing functionality',
+            'Major update of PLC-like domain specific language',
+            'Control function and interface for electrical power take off',
+            'Cost-reduction by replacing discrete switches to network-based pushbuttons',
+            'Introducing new variants of ECU-hardware due to lack of semi-conductors',
+          ]"
           :tasks="[
-            'Development of telematics solution for bodyworks', 
-            'Development of HMI functions for bodywork',
-            'Development of enhancements to the PLC-like programming language for the discrete bodywork interface',
-            'Development of control function for electrical power take off',
-            'User requirements elicitation and breakdown',
-            'Planning, and documenting architectural changes of user functions',
-            'Planning, and documenting signal flows over serial interfaces (CAN, J1939)',
-            'Developed production firmware, in C',
-            'Validation of cross functional software features in vehicle and on test bench',
-            'Development of control panels and other CAPL scripts in Canalyzer',
+            'Planned and documented architectural changes of user functions, signal flows over network interfaces (CAN, J1939)',
+            'Coordinated development with other groups at Scania',
+            'Developed and verified requirements',
+            'Developed production software in C',
+            'Validated software in vehicle and on test bench',
+            'Developed tools in C# and Python, ',
+            'Developed control panels and other scripts in Canalyzer (CAPL)',
+            'Planned and coordinated releases',
+            'Onboarded and tutored new coworkers',
+            'Supported sales, and Global Technical Support',
+            'Responded to and developed solutions for problems found in operating vehicles, and vehicles in the process of being purpose-adapted by third party.',
+            'Lead agile activities Backlog refinement and Sprint Planning', 
+            'Continious work on FMEA (Failure Mode and Risk Assessment)',
+            'Conducted TARA (Threat Analysis and Risk Assessment)',
             ]"
         />
         <TimelineItem 
@@ -90,8 +87,11 @@
           company="InContext AB" 
           role="Development engineer, Consultant"
           role-description="Software development for automotive embedded systems"
-          :tasks="[
+          :projects="[
             'Adapted application layer to be independent of powertrain type (Combustion / HEV / BEV)',
+            'Introduce new generation electrical system in bus',
+            ]"
+          :tasks="[
             'Documentation and requirements development',
             'Test automation, test scripts in Python',
             ]"
@@ -108,7 +108,7 @@
           role="Warehouse worker"
           role-description="Side job while attending KTH"
         /> -->
-        <TimelineItem 
+        <!-- <TimelineItem 
           period="2008 - 2009, 2012 - 2014" 
           company="NärkeÄgg AB" 
           role="Teamlead"
@@ -121,7 +121,7 @@
             'Repair and maintenance of egg grading equipment and facility',
             'Installation of new equipment',
             ]"
-        />
+        /> -->
 				
 			</div>
 		</div>
@@ -129,18 +129,11 @@
 			<div class="resume_title">Education</div>
 			<div class="resume_info">
         <TimelineItem 
-          period="2017" 
-          role="Won swedish championship in robotic sumo (mini/500g class)"
-          :tasks="[
-            'PCB-design, KiCAD',
-            '3d-modeling, Autodesk Fusion 360',
-            'Arduino',
-            ]"
-        />
-        <TimelineItem 
           period="2014 - 2017" 
           company="KTH - Royal Institute of Technology" 
+
           role="BSc. Mechanical enginering - Robotics and Mechatronics"
+
           role-description="No diploma"
         />
         <TimelineItem 

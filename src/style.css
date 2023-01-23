@@ -48,7 +48,7 @@ body{
 }
 
 .resume_wrapper .resume_left{
-	width: 35%;
+	width: 33%;
     background: var(--primaryDark); 
 }
 
@@ -79,8 +79,13 @@ body{
 }
 
 .resume_wrapper .resume_item{
-	padding: 20px 0;
+	padding: 10px 0;
 	border-bottom: 1px solid var(--secondaryLight);
+}
+
+.resume_right .resume_item{
+	padding: 5px 0;
+	border-bottom: 1px solid var(--primaryDark);
 }
 
 .resume_wrapper  .resume_item:last-child{
@@ -161,14 +166,14 @@ body{
 
 .resume_wrapper .resume_right .resume_data .year{
 	padding-right: 35px;
-	width: 115px;
+	width: 15px;
 	position: relative;
 }
 
 .resume_wrapper .resume_right .resume_data .content{
 	padding-left: 35px;
 	margin-bottom: 20px;
-	width: calc(100% - 115px);
+	width: calc(100%);
 }
 
 .resume_wrapper .resume_right .resume_data .year:before{
@@ -190,7 +195,7 @@ body{
     right: 4px;
     width: 3px;
     height: 90%;
-    background: var(--secondaryLight);
+    background: var(--primaryDark);
 }
 
 .resume_wrapper .resume_right .resume_data:last-child .year:after{
