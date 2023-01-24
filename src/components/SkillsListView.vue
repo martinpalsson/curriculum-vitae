@@ -12,7 +12,6 @@
     <div class="resume_item resume_skills">
 
         <div class="resume_title">Skills</div>
-        <div class="resume_title">General</div>
         <div class="resume_info skill_container">
             <div class="skill_list">
                 <!-- Left side -->

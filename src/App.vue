@@ -32,7 +32,11 @@
 			</div> -->
 
 			<!-- Contact details -->
-      <ContactDetails telephone-number="+46 706 26 49 90" email-address="martin.palsson@outlook.com"/>
+      <ContactDetails 
+        telephone-number="+46 706 26 49 90" 
+        email-address="martin.palsson@outlook.com"
+        github="https://github.com/martinpalsson"  
+      />
 			<!-- Skills -->
       <SkillsListView />
 		</div>
@@ -55,7 +59,7 @@
               My responsibilities also included a PLC-like programmable unit allowing third party to define limited functionality in the external interface,
               such as activating Power Take Off, Engine Control or interacting with the driver via Switches or Telltales.
               Took over ownership of more functions as time passed. 
-              Promoted to System Owner in 2020, which can be compared to product owner mixed with limited release train engineer duties. I did keep the Function owner duties.
+              Took the role of System Owner in 2020, which can be compared to product owner mixed with limited release train engineer duties. I did keep most of the Function owner duties.
                "
           :projects="[
             'Telematics solution and HMI functions for bodyworks', 

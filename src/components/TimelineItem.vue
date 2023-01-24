@@ -23,7 +23,8 @@ export default{
             company: company,
             role: role,
             roleDescription: roleDescription,
-            tasks:tasks
+            tasks:tasks,
+            projects:projects
         }
     }
 }
@@ -47,16 +48,14 @@ export default{
                 {{ roleDescription }}
             </div>
             <br>
-            <template v-if="projects">Projects:</template>
+            <h4 v-if="projects">Projects:</h4>
             <ul>
                 <li class="job_item" v-for="item in projects">{{ item }}</li>
             </ul>
-            <template v-if="tasks">Duties:</template>
+            <h4 style="margin-top: 5px;" v-if="tasks">Duties:</h4>
             <ul>
                 <li class="job_item" v-for="item in tasks">{{ item }}</li>
             </ul>
         </div>
-        <!-- <div class="year">{{ period }}</div> -->
-        <!-- <div class="year"></div> -->
     </div>
 </template>
